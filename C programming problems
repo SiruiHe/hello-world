@@ -23,3 +23,17 @@ int main()
 } 
 -------------------------------
 Is there anything wrong>??
+
+/******************************************/
+changed by hcr
+#include<stdio.h>
+#include<math.h>
+
+int main()
+{
+	float a,b,c,avg;
+	scanf("%f %f %f",&a,&b,&c);
+	avg=(a+b+c)/3;
+	printf("%g",avg);
+	return 0;
+}
