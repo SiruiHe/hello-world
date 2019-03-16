@@ -24,6 +24,7 @@ int main()
 -------------------------------
 Is there anything wrong>??
 
+
 /******************************************/
 changed by hcr
 #include<stdio.h>
@@ -37,3 +38,4 @@ int main()
 	printf("%g",avg);
 	return 0;
 }
+/******************************************/
