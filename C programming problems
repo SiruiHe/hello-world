@@ -9,3 +9,17 @@ Question1:
 2
 */
 ps:If you have any problems that you think are interesting,you can leave them here.
+from hsr:
+----------------------------
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+	int a,b,c,avg;
+	scanf("%d %d %d",&a,&b,&c);
+	avg=(1\3)*(a+b+c);
+	printf("%d",avg);
+	return 0;
+} 
+-------------------------------
+Is there anything wrong>??
