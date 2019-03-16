@@ -1,0 +1,17 @@
+2019/1/20
+
+Ha ha! I'm Rex and I finally login this website!
+Knowing that you're learning C Programming language, I'd like to give you an easy question and hope you can show me your answer in your coding. 
+
+Question:Input three sides of the triangle to judge the shape of the triangle. Assume that all three sides of the input are longer than 0. 
+
+Input:The length of the three edges of the triangle (int). 
+
+Output:Triangle type
+e.g:
+equilateral triangle
+isoceles triangle
+non-triangle
+triangle
+
+Enjoy it!
