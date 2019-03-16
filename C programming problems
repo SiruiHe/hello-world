@@ -1,0 +1,41 @@
+Well,I am going to upload some C programming programs just as I have promised.Here they are.
+Question1:
+/*
+从键盘输入任意3个整数，然后输出这3个的平均值，输出平均值时请使用格式符 “%g”。
+输入：3个整数，数间用空格分隔。
+输出：平均数（实数）。
+样例：
+1  2  3
+2
+*/
+ps:If you have any problems that you think are interesting,you can leave them here.
+from hsr:
+----------------------------
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+	int a,b,c,avg;
+	scanf("%d %d %d",&a,&b,&c);
+	avg=(1\3)*(a+b+c);
+	printf("%d",avg);
+	return 0;
+} 
+-------------------------------
+Is there anything wrong>??
+
+
+/******************************************/
+changed by 黄宸睿 BIT
+#include<stdio.h>
+#include<math.h>
+
+int main()
+{
+	float a,b,c,avg;
+	scanf("%f %f %f",&a,&b,&c);
+	avg=(a+b+c)/3;
+	printf("%g",avg);
+	return 0;
+}
+/******************************************/
