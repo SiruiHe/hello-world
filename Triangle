@@ -1,0 +1,21 @@
+Question:Input three sides of the triangle to judge the shape of the triangle. Assume that all three sides of the input are longer than 0. 
+
+
+
+Input:The length of the three edges of the triangle (int). 
+
+Output:Triangle type
+
+e.g:equilateral triangle
+
+isoceles triangle
+
+non-triangle
+
+triangle
+
+
+
+Enjoy it!
+
+出道题给思睿做 祝君成功！！！
