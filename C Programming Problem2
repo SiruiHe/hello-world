@@ -21,9 +21,7 @@ Enjoy it!
 出道题给思睿做 祝君成功！！！
 solution
 /*
-这个程序设计有根本性缺陷，会导致重复的输出。
-由于本人才学疏浅，暂时无法解决。
-回去读书了......
+虽然繁琐了一些，不过应该是能用了......（但愿） 
 */ 
 #include<stdio.h>
 int main()
@@ -41,13 +39,13 @@ int main()
 		if(a==max&&b*b+c*c>a*a) puts("锐角三角形\a");
 		if(a==max&&b*b+c*c<a*a) puts("钝角三角形\a");
 	}
-	if(b==max){
+	else if(b==max){
 		if(b==max&&c+a<=b) puts("不构成三角形\a");
 		if(b==max&&c*c+a*a==b*b) puts("直角三角形\a");
 		if(b==max&&c*c+a*a>b*b) puts("锐角三角形\a");
 		if(b==max&&c*c+a*a<b*b) puts("钝角三角形\a");
 	}
-	if(c==max){
+	else if(c==max){
 		if(c==max&&b+a<=c) puts("不构成三角形\a");
 		if(c==max&&b*b+a*a==c*c) puts("直角三角形\a\n");
 		if(c==max&&b*b+a*a>c*c) puts("锐角三角形\a\n");
