@@ -1,0 +1,59 @@
+Question:Input three sides of the triangle to judge the shape of the triangle. Assume that all three sides of the input are longer than 0. 
+
+
+
+Input:The length of the three edges of the triangle (int). 
+
+Output:Triangle type
+
+e.g:equilateral triangle
+
+isoceles triangle
+
+non-triangle
+
+triangle
+
+
+
+Enjoy it!
+
+出道题给思睿做 祝君成功！！！
+solution
+/*
+这个程序设计有根本性缺陷，会导致重复的输出。
+由于本人才学疏浅，暂时无法解决。
+回去读书了......
+*/ 
+#include<stdio.h>
+int main()
+{
+	float a,b,c,max;
+	puts("designed by hsr in XJTU,3/18/2019");
+	puts("请输入三角形的三个边：");
+	scanf("%f %f %f",&a,&b,&c);
+	max=a;
+	if(b>max) max=b;
+	if(c>max) max=c;
+	if(a==max){
+		if(a==max&&b+c<=a) puts("不构成三角形\a");
+		if(a==max&&b*b+c*c==a*a) puts("直角三角形\a");
+		if(a==max&&b*b+c*c>a*a) puts("锐角三角形\a");
+		if(a==max&&b*b+c*c<a*a) puts("钝角三角形\a");
+	}
+	if(b==max){
+		if(b==max&&c+a<=b) puts("不构成三角形\a");
+		if(b==max&&c*c+a*a==b*b) puts("直角三角形\a");
+		if(b==max&&c*c+a*a>b*b) puts("锐角三角形\a");
+		if(b==max&&c*c+a*a<b*b) puts("钝角三角形\a");
+	}
+	if(c==max){
+		if(c==max&&b+a<=c) puts("不构成三角形\a");
+		if(c==max&&b*b+a*a==c*c) puts("直角三角形\a\n");
+		if(c==max&&b*b+a*a>c*c) puts("锐角三角形\a\n");
+	    if(c==max&&b*b+a*a<c*c) puts("钝角三角形\a\n");
+	}
+	getchar();
+	getchar();
+	return 0;
+	}
